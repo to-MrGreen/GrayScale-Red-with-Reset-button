@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - MiniProject</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<html>
+  <head><Title>Image Filter</Title></head>
+  <body>
+    <h1>Filter your Image</h1>
+    <canvas id="c1" class="canvasCls">
+    </canvas>
+    <p>
+    <h3>Upload your Image</h3>
+      <input type="file" multiple="false" accept="image/*" id="finput" onchange="doUpload()"></p>
+    <p>
+  <h3>Choose Filter</h3>
+      <input type="button" value="Grayscale" onclick="goGray()">
+      <input type="button" value="Redscale" onclick="goRed()"></p>
+    <input type="button" value="Reset" onclick="goReset()">
+  </body>
+  </html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

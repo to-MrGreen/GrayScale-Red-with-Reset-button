@@ -1,0 +1,8 @@
+body{
+  background-color: lightgreen;
+}
+canvas{
+  width:300px;
+  height:150px;
+  border:2px solid;
+}
